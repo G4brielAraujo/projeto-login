@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Paleeta de cores
+Verde: #49a09d
+Lilas: #5f2c82*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+section#login > div#imagens {
+    background-color: #5f2c82;
+    background-image: url(../imagens/pexels-sevenstormphotography-443383.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
