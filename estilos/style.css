@@ -40,4 +40,13 @@ section#login > div#imagens {
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
+} 
+
+div#formulario > h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+div#formulario > p {
+    font-size: 1em;
 }
